@@ -42,6 +42,4 @@ max_iter = 1000
 for i in range(max_iter):
     curr_state = START
     while(True): # Until goal reached
-        index = np.where(reward > 0)
-        print(index)
-        break
+        
